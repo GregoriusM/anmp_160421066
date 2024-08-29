@@ -14,4 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         //TODO: ini cuma percobaan week 1
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
 }
